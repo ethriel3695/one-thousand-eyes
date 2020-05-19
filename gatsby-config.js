@@ -32,5 +32,6 @@ No part of this website may be reproduced without the specific written permissio
         link: 'https://www.sca.org/',
       },
     ],
+    hasNotifications: false,
   },
 };
