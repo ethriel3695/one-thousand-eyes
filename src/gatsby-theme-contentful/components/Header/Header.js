@@ -37,9 +37,11 @@ const Header = ({
 
   let deferredPrompt;
 
-  window.addEventListener('beforeinstallprompt', event => {
-    deferredPrompt = event;
-  });
+  if (isBrowser) {
+    window.addEventListener('beforeinstallprompt', event => {
+      deferredPrompt = event;
+    });
+  }
 
   const { prompt } = useIsIOS();
 
