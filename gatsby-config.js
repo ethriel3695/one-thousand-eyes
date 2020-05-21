@@ -4,6 +4,21 @@ module.exports = {
       resolve: 'gatsby-theme-contentful',
       options: {},
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `One Thousand Eyes`,
+        icon: `content/assets/logo/logo.jpg`,
+        short_name: `One Thousand Eyes`,
+        start_url: `/`,
+        background_color: `#2C5282`,
+        theme_color: `#2C5282`,
+        display: `standalone`,
+        scope: '/',
+        crossOrigin: `use-credentials`,
+        // theme_color_in_head: false
+      },
+    },
   ],
   siteMetadata: {
     title: `One Thousand Eyes`,
