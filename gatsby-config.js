@@ -36,9 +36,10 @@ No part of this website may be reproduced without the specific written permissio
     newsletterTitle: 'Newsletter',
     social: {
       facebook: 'https://www.facebook.com/barony1000eyes',
+      instagram: '',
       twitter: '',
       github: 'https://www.github.com/ethriel3695',
-      email: 'thedevelopertoolbook@gmail.com',
+      email: 'mailto:webminister@baronyof1000eyes.org',
     },
     externalLinks: [
       { label: 'Kingdom of Artemisia', link: 'https://www.artemisia.sca.org/' },
