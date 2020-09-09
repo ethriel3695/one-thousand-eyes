@@ -2,7 +2,7 @@ import React from 'react';
 
 const officers = [
   {
-    email: 'archery.marshal@baronyof1000eyes.org',
+    email: 'archery@baronyof1000eyes.org',
     position: 'Archery Marshal',
   },
   {
@@ -17,10 +17,10 @@ const officers = [
   //   email: 'chatelaine@baronyof1000eyes.org',
   //   position: 'Chatelaine',
   // },
-  // {
-  //   email: 'chronicler@baronyof1000eyes.org',
-  //   position: 'Chronicler',
-  // },
+  {
+    email: 'chronicler@baronyof1000eyes.org',
+    position: 'Chronicler',
+  },
   {
     email: 'exchequer@baronyof1000eyes.org',
     position: 'Exchequer',
@@ -41,10 +41,10 @@ const officers = [
   //   email: 'deputy.knight.marshal@baronyof1000eyes.org',
   //   position: 'Deputy Knight Marshal',
   // },
-  // {
-  //   email: 'list.mistress@baronyof1000eyes.org',
-  //   position: 'List Mistress',
-  // },
+  {
+    email: 'list.mistress@baronyof1000eyes.org',
+    position: 'List Mistress',
+  },
   {
     email: 'moas@baronyof1000eyes.org',
     position: 'Minister of Arts and Sciences',
@@ -61,10 +61,10 @@ const officers = [
   //   email: 'deputy.quartermaster@baronyof1000eyes.org',
   //   position: 'Deputy Quartermaster',
   // },
-  // {
-  //   email: 'rapier.marshal@baronyof1000eyes.org',
-  //   position: 'Rapier Marshal',
-  // },
+  {
+    email: 'rapier@baronyof1000eyes.org',
+    position: 'Rapier Marshal',
+  },
   // {
   //   email: 'deputy.rapier.marshal@baronyof1000eyes.org',
   //   position: 'Deputy Rapier Marshal',
@@ -77,6 +77,10 @@ const officers = [
     email: 'deputy.seneschal@baronyof1000eyes.org',
     position: 'Deputy Seneschal',
   },
+  {
+    email: 'smo@baronyof1000eyes.org',
+    position: 'Social Media Officer',
+  },
   // {
   //   email: 'thrown.weapons.marshal@baronyof1000eyes.org',
   //   position: 'Thrown Weapons Marshal',
@@ -86,7 +90,7 @@ const officers = [
   //   position: 'Deputy Thrown Weapons Marshal',
   // },
   {
-    email: 'web.minister@baronyof1000eyes.org',
+    email: 'webminister@baronyof1000eyes.org',
     position: 'Web Minister',
   },
   // {
