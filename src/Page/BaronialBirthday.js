@@ -10,7 +10,13 @@ export default function ListComponent() {
           Please take a moment and register for the event so we can see all the
           wonderful people that are joining us today!
         </p>
-        <form name="contact" netlify="true">
+        <form
+          name="contact"
+          dataNetlify="true"
+          dataNetlifyHoneypot="bot-field"
+          method="post"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <p>
             <input
               type="text"
