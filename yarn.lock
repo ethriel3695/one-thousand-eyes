@@ -7263,10 +7263,10 @@ gatsby-telemetry@^1.4.1:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-contentful@^0.1.33:
-  version "0.1.33"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-contentful/-/gatsby-theme-contentful-0.1.33.tgz#e88bf05d852fc70d074e45bb899771781d1bf22e"
-  integrity sha512-brlscpwp1x04WanO6hTpPa3Myja+Vgolar399vnKWdMNn2bfMvrZVPULQi8SzAI8hLftSVq7McAiAqI9I1bnlA==
+gatsby-theme-contentful@^0.1.34:
+  version "0.1.34"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-contentful/-/gatsby-theme-contentful-0.1.34.tgz#8053e6475cbf6fc79b03ade49c52ee347ace277b"
+  integrity sha512-8D1QV52Vk0Pc36/17aQ8v9HpfckuO9oS55SHljaf+rx0iqAz1V9A/GKmwVvtPtodOeuAcVsrtNh/GlEFSEA0pA==
   dependencies:
     "@auth0/auth0-react" "^1.1.0"
     "@contentful/rich-text-react-renderer" "^13.4.0"
