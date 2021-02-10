@@ -4,14 +4,17 @@ const officers = [
   {
     email: 'archery@baronyof1000eyes.org',
     position: 'Archery Marshal',
+    name: 'Robert the Lost',
   },
   {
     email: 'baron@baronyof1000eyes.org',
     position: 'Baron',
+    name: 'Stephan Sorenson',
   },
   {
     email: 'baroness@baronyof1000eyes.org',
     position: 'Baroness',
+    name: 'Denise of Amberly',
   },
   // {
   //   email: 'chatelaine@baronyof1000eyes.org',
@@ -20,10 +23,12 @@ const officers = [
   {
     email: 'chronicler@baronyof1000eyes.org',
     position: 'Chronicler',
+    name: 'Crestina da Brescia',
   },
   {
     email: 'exchequer@baronyof1000eyes.org',
     position: 'Exchequer',
+    name: 'Symmone de St Maurdes Fossez',
   },
   // {
   //   email: 'deputy.exchequer@baronyof1000eyes.org',
@@ -32,6 +37,7 @@ const officers = [
   {
     email: 'herald@baronyof1000eyes.org',
     position: 'Herald',
+    name: 'Gasparre di lucca',
   },
   // {
   //   email: 'knight.marshal@baronyof1000eyes.org',
@@ -42,29 +48,32 @@ const officers = [
   //   position: 'Deputy Knight Marshal',
   // },
   {
-    email: 'list.mistress@baronyof1000eyes.org',
-    position: 'List Mistress',
+    email: 'listminister@baronyof1000eyes.org',
+    position: 'Minister of the List',
+    name: 'Symmone de St Maurdes Fossez',
   },
   {
     email: 'moas@baronyof1000eyes.org',
     position: 'Minister of Arts and Sciences',
+    name: 'Helena Boccardi',
   },
   // {
   //   email: 'deputy.moas@baronyof1000eyes.org',
   //   position: 'Deputy Minister of Arts and Sciences',
   // },
-  {
-    email: 'quartermaster@baronyof1000eyes.org',
-    position: 'Quartermaster',
-  },
+  // {
+  //   email: 'quartermaster@baronyof1000eyes.org',
+  //   position: 'Quartermaster',
+  //   name: 'Robert the Lost',
+  // },
   // {
   //   email: 'deputy.quartermaster@baronyof1000eyes.org',
   //   position: 'Deputy Quartermaster',
   // },
-  {
-    email: 'rapier@baronyof1000eyes.org',
-    position: 'Rapier Marshal',
-  },
+  // {
+  //   email: 'rapier@baronyof1000eyes.org',
+  //   position: 'Rapier Marshal',
+  // },
   // {
   //   email: 'deputy.rapier.marshal@baronyof1000eyes.org',
   //   position: 'Deputy Rapier Marshal',
@@ -72,15 +81,22 @@ const officers = [
   {
     email: 'seneschal@baronyof1000eyes.org',
     position: 'Seneschal',
+    name: 'Reynhard von Reutte',
   },
+  // {
+  //   email: 'deputy.seneschal@baronyof1000eyes.org',
+  //   position: 'Deputy Seneschal',
+  //   name: 'Yuri the Yakslapper',
+  // },
   {
-    email: 'deputy.seneschal@baronyof1000eyes.org',
+    email: 'deputy2nd.seneschal@baronyof1000eyes.org',
     position: 'Deputy Seneschal',
+    name: 'Yuri the Yakslapper',
   },
-  {
-    email: 'smo@baronyof1000eyes.org',
-    position: 'Social Media Officer',
-  },
+  // {
+  //   email: 'smo@baronyof1000eyes.org',
+  //   position: 'Social Media Officer',
+  // },
   // {
   //   email: 'thrown.weapons.marshal@baronyof1000eyes.org',
   //   position: 'Thrown Weapons Marshal',
@@ -92,6 +108,7 @@ const officers = [
   {
     email: 'webminister@baronyof1000eyes.org',
     position: 'Web Minister',
+    name: 'Leonardo Serafino',
   },
   // {
   //   email: 'deputy.web.minister@baronyof1000eyes.org',
@@ -111,7 +128,7 @@ export default function ListComponent() {
   return (
     <div>
       <ul className="text-left list-none" aria-label="barony officers">
-        {officers.map(({ email, position }, index) => {
+        {officers.map(({ email, position, name }, index) => {
           return (
             <li
               className="my-3"
@@ -130,6 +147,11 @@ export default function ListComponent() {
                   className="text-gray-800 text-base"
                   style={{ textShadow: '2px 2px #ddd' }}
                 >{`${email}`}</span>
+                <br />
+                <span
+                  className="text-gray-800 text-base"
+                  style={{ textShadow: '2px 2px #ddd' }}
+                >{`${name}`}</span>
               </a>
             </li>
           );
