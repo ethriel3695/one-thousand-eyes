@@ -39,10 +39,11 @@ const officers = [
     position: 'Herald',
     name: 'Gasparre di lucca',
   },
-  // {
-  //   email: 'knight.marshal@baronyof1000eyes.org',
-  //   position: 'Knight Marshal',
-  // },
+  {
+    email: 'knight.marshal@baronyof1000eyes.org',
+    position: 'Knight Marshal',
+    name: 'Sigrothr Malrakki',
+  },
   // {
   //   email: 'deputy.knight.marshal@baronyof1000eyes.org',
   //   position: 'Deputy Knight Marshal',
@@ -55,7 +56,7 @@ const officers = [
   {
     email: 'moas@baronyof1000eyes.org',
     position: 'Minister of Arts and Sciences',
-    name: 'Helena Boccardi',
+    name: 'THL Helena Handbasket',
   },
   // {
   //   email: 'deputy.moas@baronyof1000eyes.org',
